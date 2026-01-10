@@ -1,5 +1,6 @@
 # this is used when the model is created and we want to predict for the new data
 
+import os
 import sys
 import pandas as pd
 from src.exception import CustomException
@@ -11,9 +12,9 @@ class PredictPipeline:
 
     def predict(self,features):
         try:
-          model_path='artifacts\model.pkl'
+          model_path = os.path.join("artifacts", "model.pkl")
           # preprocess is responsible in handling the categorical features for doing feature scaling
-          preprocessor_path='artifacts\preprocessor.pkl'
+          preprocessor_path = os.path.join("artifacts", "preprocessor.pkl")
           model=load_object(file_path=model_path)
           preprocessor=load_object(file_path=preprocessor_path)
           data_scaled=preprocessor.transform(features)
