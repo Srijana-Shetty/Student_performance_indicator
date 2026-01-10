@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About – Student Exam Performance Indicator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #667eea, #764ba2);
+            color: white;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1, h2 {
+            text-align: left;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #ffeb3b;
+        }
+
+        p, li {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        ul {
+            margin-left: 25px;
+        }
+
+        .box {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        .chart-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        img.chart {
+            max-width: 300px;
+            border-radius: 8px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: white;
+            color: #764ba2;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+
+        a:hover {
+            background: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📘 About This Project</h1>
+
+    <div class="box">
+        <h2>Problem Statement</h2>
+        <p>
+            This project predicts a student’s Math score and evaluates academic risk using demographic and academic factors like Gender, Ethnicity, Parental Education, Lunch, and Test Preparation. 
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>Model Overview</h2>
+        <ul>
+            <li>Regression-based machine learning approach</li>
+            <li>Trained multiple models to find the best predictor for Math scores</li>
+            <li>Deployed the final model using Flask for real-time predictions</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>Model Performance</h2>
+        <p>
+            The final selected model achieved an R² Score of approximately <b>0.85</b>, indicating strong predictive accuracy.
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>Actual vs Predicted Analysis</h2>
+        <p>
+            This chart demonstrates how closely the predicted Math scores match the actual scores in the dataset.
+        </p>
+        <div class="chart-container">
+            <img src="/static/images/actual_vs_predicted.png" alt="Actual vs Predicted Chart" class="chart">
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>Use Cases</h2>
+        <ul>
+            <li><b>Identify Struggling Students:</b> Early prediction of students who may perform poorly in Math.</li>
+            <li><b>Tailored Interventions:</b> Helps teachers provide focused support and resources to at-risk students.</li>
+            <li><b>Data-driven Decisions:</b> Schools can use predictions to improve academic programs and curriculum planning.</li>
+            <li><b>Performance Insights:</b> Researchers and educators can analyze which factors most affect student performance.</li>
+        </ul>
+    </div>
+
+    <div style="text-align:left; margin-top: 30px;">
+        <a href="/">⬅ Back to Home</a>
+    </div>
+
+</div>
+
+</body>
+</html>

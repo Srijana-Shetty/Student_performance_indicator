@@ -1,1 +1,82 @@
-<h1>Welcome to the home page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Academic Risk Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #667eea, #764ba2);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        p.description {
+            font-size: 18px;
+            margin-bottom: 40px;
+            max-width: 600px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .button-link {
+            display: inline-block;
+            padding: 18px 36px;
+            background: white;
+            color: #764ba2;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .button-link:hover {
+            background: #f1f1f1;
+            color: #5e3ea1;
+        }
+
+        
+        @media (max-width: 768px) {
+            .button-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎓 Student Exam Performance Indicator</h1>
+    <p class="description">
+The system analyzes student data to forecast math exam results and determine academic risk based on multiple personal and academic attributes.
+</p>
+
+
+
+    <div class="button-container">
+        
+        <a class="button-link" href="/predictdata">Start Prediction</a>
+
+        
+        <a class="button-link" href="/about">About</a>
+    </div>
+
+</body>
+</html>
