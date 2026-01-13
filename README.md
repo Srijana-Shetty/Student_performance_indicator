@@ -92,7 +92,7 @@ Matplotlib & Seaborn
 
 ### ▶️ How to Run Locally
 #### 1️⃣ Clone Repository :
-git clone https://github.com/your-username/student-exam-performance.git
+git clone https://github.com/your-username/student-exam-performance.git                                                                                                                           
 cd student-exam-performance
 
 #### 2️⃣ Create Virtual Environment :                                                                                                             
