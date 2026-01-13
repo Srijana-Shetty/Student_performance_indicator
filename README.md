@@ -111,7 +111,7 @@ http://127.0.0.1:5000
 
 ### 📈 Results
 
-+Accurate Math score predictions
-+Identified key performance-driving factors
-+End-to-end ML lifecycle implemented successfully
++ Accurate Math score predictions
++ Identified key performance-driving factors
++ End-to-end ML lifecycle implemented successfully
 
