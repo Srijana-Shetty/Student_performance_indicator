@@ -37,10 +37,10 @@ Deploy a Flask web app for real-time predictions
 
 ### Key EDA Insights:
 
-* Test preparation courses positively impact Math scores
-* Parental education level shows correlation with performance
-* Reading and writing scores strongly influence Math scores
-* Lunch type reflects socio-economic impact on performance
+* Student's Performance is related with lunch, race, parental level education.
+* Females lead in pass percentage and also are top-scorers.
+* Student's Performance is not much related with test preparation course.
+* Finishing preparation course is benefitial.
 
 ### 🧩 Features Used
 
@@ -54,12 +54,12 @@ Writing Score
 
 ### ⚙️ Machine Learning Pipeline
 
-*Data Ingestion
-*Data Transformation (Encoding & Scaling)
-*Model Training
-*Model Evaluation
-*Model Serialization
-*Prediction Pipeline
+* Data Ingestion
+* Data Transformation (Encoding & Scaling)
+* Model Training
+* Model Evaluation
+* Model Serialization
+* Prediction Pipeline
 
 ### 🤖 Models Used
 
@@ -95,9 +95,9 @@ Matplotlib & Seaborn
 git clone https://github.com/your-username/student-exam-performance.git
 cd student-exam-performance
 
-#### 2️⃣ Create Virtual Environment :
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+#### 2️⃣ Create Virtual Environment :                                                                                                             
+conda create -p venv python==3.8 -y                                                                                                               
+conda active venv/                                                                                                                                
 
 #### 3️⃣ Install Dependencies
 pip install -r requirements.txt
