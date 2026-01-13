@@ -17,10 +17,10 @@ Early prediction of poor performance helps schools provide timely academic suppo
 
 ### 🚀 Solution Approach
 
-Analyze student data using EDA                                                                                                                    
-Train regression models to predict Math scores                                                                                                    
-Deploy a Flask web app for real-time predictions                                                                                                  
-
+- Analyze student data using EDA                                                                                                                  
+- Train regression models to predict Math scores                                                                                                  
+- Deploy a Flask web app for real-time predictions
+                                                                                               
 ### 🧠 Use Cases
 
 * Identify Struggling Students – Early prediction of students who may perform poorly in Math                                                      
@@ -63,15 +63,15 @@ Writing Score
 
 ### 🤖 Models Used
 
-Multiple regression models were trained and evaluated:
-Linear Regression
-Lasso Regression
-Ridge Regression
-Decision Tree Regressor
-Random Forest Regressor
-XGBoost Regressor
-CatBoost Regressor
-AdaBoost Regressor
+Multiple regression models were trained and evaluated:                                                                                            
+Linear Regression                                                                                                                                 
+Lasso Regression                                                                                                                                  
+Ridge Regression                                                                                                                                  
+Decision Tree Regressor                                                                                                                           
+Random Forest Regressor                                                                                                                           
+XGBoost Regressor                                                                                                                                 
+CatBoost Regressor                                                                                                                                
+AdaBoost Regressor                                                                                                                                
 
 The best-performing model was selected based on R² score.
 
