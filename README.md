@@ -1,18 +1,14 @@
 ## 🎓 Student Performance Indicator
 
 ### 📌 Project Overview
-This project predicts students' Math scores based on demographic and academic factors using Machine Learning.
+This project predicts student's Math scores based on demographic and academic factors using Machine Learning.
 It also identifies academically at-risk students, enabling early interventions by educators.
 
-The system includes:
+### The system includes:
 
-Exploratory Data Analysis (EDA)
-
-End-to-end ML pipeline
-
-Web application using Flask
-
-Cloud deployment (Render)
+1.Exploratory Data Analysis (EDA)
+2.End-to-end ML pipeline
+3.Web application using Flask
 
 🎯 Problem Statement
 
