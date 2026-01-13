@@ -63,15 +63,15 @@ Writing Score
 
 ### 🤖 Models Used
 
-Multiple regression models were trained and evaluated:                                                                                            
-Linear Regression                                                                                                                                 
-Lasso Regression                                                                                                                                  
-Ridge Regression                                                                                                                                  
-Decision Tree Regressor                                                                                                                           
-Random Forest Regressor                                                                                                                           
-XGBoost Regressor                                                                                                                                 
-CatBoost Regressor                                                                                                                                
-AdaBoost Regressor                                                                                                                                
+  Multiple regression models were trained and evaluated:                                                                                            
+  Linear Regression                                                                                                                                 
+  Lasso Regression                                                                                                                                  
+  Ridge Regression                                                                                                                                  
+  Decision Tree Regressor                                                                                                                           
+  Random Forest Regressor                                                                                                                           
+  XGBoost Regressor                                                                                                                                 
+  CatBoost Regressor                                                                                                                                
+  AdaBoost Regressor                                                                                                                                
 
 The best-performing model was selected based on R² score.
 
