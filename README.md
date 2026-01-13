@@ -37,13 +37,10 @@ Deploy a Flask web app for real-time predictions
 
 ### Key EDA Insights:
 
-*Test preparation courses positively impact Math scores
-
-*Parental education level shows correlation with performance
-
-*Reading and writing scores strongly influence Math scores
-
-*Lunch type reflects socio-economic impact on performance
+* Test preparation courses positively impact Math scores
+* Parental education level shows correlation with performance
+* Reading and writing scores strongly influence Math scores
+* Lunch type reflects socio-economic impact on performance
 
 ### 🧩 Features Used
 
