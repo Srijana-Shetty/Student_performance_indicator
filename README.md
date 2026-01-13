@@ -29,11 +29,11 @@ Deploy a Flask web app for real-time predictions
 * Performance Insights – Helps educators understand key factors affecting performance                                                              
 ### 📊 Exploratory Data Analysis (EDA)
 
-*EDA was performed to:
-*Understand data distribution
-*Detect missing values and outliers
-*Analyze relationships between features and Math scores
-*Identify important predictors influencing performance
+* EDA was performed to:
+* Understand data distribution
+* Detect missing values and outliers
+* Analyze relationships between features and Math scores
+* Identify important predictors influencing performance
 
 ### Key EDA Insights:
 
