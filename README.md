@@ -23,11 +23,10 @@ Deploy a Flask web app for real-time predictions
 
 ### 🧠 Use Cases
 
-*Identify Struggling Students – Early prediction of students who may perform poorly in Math                                                       
-*Tailored Interventions – Helps teachers provide focused support to at-risk students                                                              
-*Data-Driven Decisions – Enables schools to improve curriculum planning                                                                           
-*Performance Insights – Helps educators understand key factors affecting performance                                                              
-
+* Identify Struggling Students – Early prediction of students who may perform poorly in Math                                                      
+* Tailored Interventions – Helps teachers provide focused support to at-risk students                                                             
+* Data-Driven Decisions – Enables schools to improve curriculum planning                                                                          
+* Performance Insights – Helps educators understand key factors affecting performance                                                              
 ### 📊 Exploratory Data Analysis (EDA)
 
 *EDA was performed to:
