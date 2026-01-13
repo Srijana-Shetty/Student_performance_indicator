@@ -83,11 +83,11 @@ Predicts Math score in real time
 
 ### 🛠️ Tech Stack
 
-Python 3.8
-Flask
-scikit-learn
-pandas
-NumPy
+Python 3.8                                                                                                                                        
+Flask                                                                                                                                             
+scikit-learn                                                                                                                                      
+pandas                                                                                                                                            
+NumPy                                                                                                                                             
 Matplotlib & Seaborn
 
 ### ▶️ How to Run Locally
