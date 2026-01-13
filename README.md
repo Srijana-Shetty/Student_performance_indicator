@@ -6,9 +6,9 @@ It also identifies academically at-risk students, enabling early interventions b
 
 ### The system includes:
 
-1.Exploratory Data Analysis (EDA)
-2.End-to-end ML pipeline
-3.Web application using Flask
+1.Exploratory Data Analysis (EDA)                                                                                                                 
+2.End-to-end ML pipeline                                                                                                                          
+3.Web application using Flask                                                                                                                     
 
 🎯 Problem Statement
 
